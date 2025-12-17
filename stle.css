@@ -1,0 +1,96 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation */
+.navbar {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* About */
+.about {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.service-cards .card {
+    display: inline-block;
+    background: #e4e4e4;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.portfolio-gallery .portfolio-item {
+    display: inline-block;
+    background: #dcdcdc;
+    padding: 30px;
+    margin: 10px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+/* Contact */
+.contact {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
